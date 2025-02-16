@@ -6,6 +6,9 @@ const fs = require('fs');
 const app = express();
 const port = 3000;
 
+
+
+
 // Ensure uploads directory exists
 const uploadDir = path.join(__dirname, 'uploads');
 if (!fs.existsSync(uploadDir)) {
